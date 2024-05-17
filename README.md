@@ -1,2 +1,2 @@
 # ARDUINO
-Projetos feitos na IDE Online TInkercard/Arduino IDE
+Projetos feitos na IDE Online Tinkercard/Arduino IDE
