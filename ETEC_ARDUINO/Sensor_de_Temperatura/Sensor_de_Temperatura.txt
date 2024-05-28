@@ -17,5 +17,7 @@ void loop(){
   // acendendo o led quando for maior ou igual a 30:
   if(temp >= 30){
    digitalWrite(led, HIGH);
-  } 
+  } else {
+   digitalWrite(led, LOW);
+  }
 }
