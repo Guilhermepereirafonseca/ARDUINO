@@ -1,11 +1,11 @@
-// LED RBG
+// LED RGB
 // suas cores funcionam entre 0 e 255, igual o PWM!;
 
 int vermelho = 3;
 int azul = 5;
 int verde = 6;
 int pinBotao = 2;
-int estadoBotao = 0; // se foi pressionado ou n„o
+int estadoBotao = 0; // se foi pressionado ou n√£o
 int cor = 0;
 
 void setup(){
@@ -16,7 +16,7 @@ void setup(){
 }
 
 void loop(){
-  // BOT√O
+  // BOT√ÉO
  estadoBotao = digitalRead(pinBotao); 
    if(estadoBotao == HIGH){
     cor++;
