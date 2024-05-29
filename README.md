@@ -18,7 +18,7 @@ VEJA O EXEMPLO ABAIXO:
 
 ## SOBRE OS PROJETOS
 
-### 🤖 Ligando um LED com um BOTÃO:
+### 🤖 Ligando um LED com um BOTÃO [{repository}](https://github.com/Guilhermepereirafonseca/ARDUINO/tree/main/ETEC_ARDUINO/BOTAO_LED):
 - Definindo as variáveis
 ```c++
 
@@ -55,7 +55,7 @@ estadoBotao = digitalRead(pinBotao);
 
 ```
 
-### 🤖 Fazendo um SEMÁFORO DUPLO:
+### 🤖 Fazendo um SEMÁFORO DUPLO [{repository}](https://github.com/Guilhermepereirafonseca/ARDUINO/tree/main/ETEC_ARDUINO/SEM%C3%81FORO_DUPLO):
 - Definindo as variavéis para **semáforo 1** e **semáforo 2**
 ```c++
 
@@ -109,7 +109,7 @@ void loop() {
 }
 ```
 
-### 🤖 Usando PWM com LED RGB
+### 🤖 Usando PWM com LED RGB [{repository}](https://github.com/Guilhermepereirafonseca/ARDUINO/tree/main/ETEC_ARDUINO/PWM_RGB_BUTTON):
 - Definindo as variáveis
 ```c++
 
@@ -164,7 +164,7 @@ void loop(){
   }
 }
 ```
-### 🤖 FOTORERSISTOR (LDR)
+### 🤖 FOTORERSISTOR (LDR) [{repository}](https://github.com/Guilhermepereirafonseca/ARDUINO/tree/main/ETEC_ARDUINO/LDR_4_LEDS)
 - Definindo as variáveis analógicas
 ```c++
 
@@ -219,7 +219,7 @@ void loop(){
 }
 ```
 
-### 🤖 SENSOR DE TEMPERATURA (LM35 | TM36)
+### 🤖 SENSOR DE TEMPERATURA (LM35 | TM36) [{repository}](https://github.com/Guilhermepereirafonseca/ARDUINO/tree/main/ETEC_ARDUINO/Sensor_de_Temperatura)
 - Definindo as variáveis, uma como float que será convertida
 ```c++
 
