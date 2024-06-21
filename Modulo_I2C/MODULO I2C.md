@@ -55,3 +55,7 @@ lcd.scrollDisplayLeft() // esquerda
 ```c++
 lcd.home();
 ```
+
+## Referencias
+🎥 <a href="https://youtu.be/jWE0R7fG4k4?si=tyvBB7pjepWt-oCU"> MÓDULO I2C - Facilitando a sua vida com o Display LCD (ARDUINO BRASIL) </a> <br> <br>
+🎥 <a href=""https://youtu.be/pcBbJA9G9oM?si=ujbulpn81CvKZ9gU> Tira Dúvidas como utilizar o Módulo I2c para LCD no Arduino </a>
