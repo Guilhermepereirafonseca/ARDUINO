@@ -24,7 +24,7 @@ GND e o pino negativo, já o VCC pino positivo.
 SDA (Serial Data) é o responsável pela transferência e recebimento de dados. por sua vez, o pino SCL (Serial Clock) é utilizado para temporização das mensagens da tela.
 
 ## Biblioteca
-## LiquidCrystal_I2C.h
+### LiquidCrystal_I2C.h
 Essa biblioteca facilita muito na programação desse modulo, sem ela você ainda teria que usar o LCD confessional
 1. para iniciar o monitor **LCD**
 ```c++
