@@ -1,3 +1,4 @@
+```c++
 int pinLM35 = A0;
 float temp = 0;
 int led = 2;
@@ -21,3 +22,4 @@ void loop(){
    digitalWrite(led, LOW);
   }
 }
+```
