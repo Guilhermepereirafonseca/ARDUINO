@@ -1,3 +1,4 @@
+```c++
 // LED RGB
 // suas cores funcionam entre 0 e 255, igual o PWM!;
 
@@ -42,3 +43,4 @@ void loop(){
     digitalWrite(azul, 0);
   }
 }
+```
