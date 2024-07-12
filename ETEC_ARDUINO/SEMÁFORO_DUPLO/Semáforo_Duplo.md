@@ -1,3 +1,4 @@
+```c++
 // semaforo 1
 
 int ledVermelho1 = 2;
@@ -40,3 +41,4 @@ void loop() {
  digitalWrite (ledAmarelo2, LOW);
  digitalWrite (ledVermelho1, LOW);	
 }
+```
