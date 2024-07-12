@@ -1,6 +1,7 @@
+```c++
 // map(valor,0,1023,0,255) [minimo para maximo]
 
-int ldr = A0; // AnalÛgico
+int ldr = A0; // Anal√≥gico
 int valorLDR = 0; // valor inicial
 int led = 6; // ~6
 int pouca = 3; // ~3
@@ -8,8 +9,8 @@ int media = 4; // ~4
 int muita = 5; // ~5
 
 void setup(){
- Serial.begin(9600); //velocidade de transmiss„o (maior mais r·pido)
- // Definindo pinos como saÌda
+ Serial.begin(9600); //velocidade de transmiss√£o (maior mais r√°pido)
+ // Definindo pinos como sa√≠da
  pinMode(led, OUTPUT);
  pinMode(pouca, OUTPUT);
  pinMode(media, OUTPUT);
@@ -18,28 +19,29 @@ void setup(){
 
 void loop(){
   valorLDR = analogRead(ldr); // lendo
-  Serial.print("O valor do LDR eh: "); // Ser· exibido
+  Serial.print("O valor do LDR eh: "); // Ser√° exibido
   Serial.println(valorLDR); // mostrando o valor
   
   int valorNovo = map(valorLDR,0,1023,255,0);
    analogWrite(led, valorNovo); // Lendo
   
-  // Aqui o valor est· em pouca luminosidade
+  // Aqui o valor est√° em pouca luminosidade
   if(valorLDR <= 840){
    digitalWrite(pouca, HIGH);
    digitalWrite(media, LOW);
    digitalWrite(muita, LOW);
   }
-  // Aqui o valor est· em pouca e media luminosidade
+  // Aqui o valor est√° em pouca e media luminosidade
   if(valorLDR <= 950 and valorLDR >= 900){
    digitalWrite(pouca, HIGH);
    digitalWrite(media, HIGH);
    digitalWrite(muita, LOW);
   }
-  // Aqui acende os anteriores, est· em muita luminosidade
+  // Aqui acende os anteriores, est√° em muita luminosidade
   if(valorLDR >= 960){
    digitalWrite(pouca, HIGH);
    digitalWrite(media, HIGH);
    digitalWrite(muita, HIGH);
   }
 }
+```
