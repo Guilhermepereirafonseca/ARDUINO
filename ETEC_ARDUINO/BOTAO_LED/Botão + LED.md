@@ -1,3 +1,4 @@
+```c++
 // VARIAVEIS
 int pinBotao = 2;
 int estadoBotao = 0;
@@ -21,3 +22,4 @@ void loop(){
     digitalWrite(3, LOW);
     }
 }
+```
